@@ -3,8 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
     devtool: 'source-map',
-
-    entry: './launch.js',
+    target: 'web',
+    entry: './src/index.js',
     module: {
         rules: [
             {
